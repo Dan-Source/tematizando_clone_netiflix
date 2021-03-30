@@ -1,4 +1,4 @@
-## Lud Art
+# Lud Art
 
 Foi uma proposta do bootCamp, fazer um clone da netflix, só que o desafio foi
 estilizar com alguma temática. Assim fiz reutilizei o codigo para adptar
