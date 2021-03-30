@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href='style/responsive.css'>
+    <!-- gallery -->
+    <link rel="stylesheet" href="style/slideshow.css">
+    <title>Lud Art</title>
+</head>
+    <body>
+        <header>
+            <div class='container'>
+                <h2 class='logo'>
+                    <img src="img/lud_art_img.png" alt="Imagem de Logo da Lud Art">
+                </h2>
+                <nav>
+                    <a href="https://www.instagram.com/ludartss/?hl=pt-br">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCS7f7qcJMpfG5N6uWvMa0BA">
+                        <i class="fab fa-youtube"></i></i>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <h3 class='titulo'>Lud Art </h3>
+                    <p class="descricao">
+                        Em Corrente, Lud buscar mostrar sua forma de ver a 
+                        arte. Imprime em seus desenhos os detalhes, os sentimentos e 
+                        sua forma de perceber o mundo. 
+                        Conheça um pouco dessa maravilhoso trabalho com as amostras a seguir.
+                    </p>
+              
+                    <div class="botoes">
+                        <a 
+
+                        class='botao' 
+                        href="https://www.youtube.com/channel/UCS7f7qcJMpfG5N6uWvMa0BA">
+                                <i class="fab fa-youtube"></i></i>
+                            ASSISTIR AGORA
+                        </a>
+                        <a 
+                        class='botao' 
+                        href="https://www.instagram.com/ludartss/?hl=pt-br" >
+                            <i class="fab fa-instagram"></i>
+                            MAIS INFORMAÇÕES
+                        </a>
+                    </div>
+                </div>    
+            </div>
+            <div class='container-media'>
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/zdScN2mPH-k?autoplay=1&showinfo=0&controls=0" 
+                title="YouTube video player"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                >
+                </iframe>
+            </div>
+        <!-- Container for the image gallery -->
+        <div class="container-gallery">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="img/azul.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="img/cores.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="img/fantasma_solidao.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="img/io.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="img/liberdade.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="img/pais_das_maravilhas.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="img/ponyo.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="img/shikamaru.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 9</div>
+                <img src="img/Stitch.jpeg" style="width: 100%; height: 480px; object-fit:contain;">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/azul.jpeg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Desafio de uma cor">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/cores.jpeg" style="width:100%" onclick="currentSlide(2)"
+                        alt="Luz e Sombra">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/fantasma_solidao.jpeg" style="width:100%" onclick="currentSlide(3)"
+                        alt="Fantasma da Solidão">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/io.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Ió">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/liberdade.jpeg" style="width:100%" onclick="currentSlide(5)"
+                        alt="Liberdade">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/pais_das_maravilhas.jpeg" style="width:100%" onclick="currentSlide(6)"
+                        alt="O Gatinho de Alice no País das Maravilhas">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/ponyo.jpeg" style="width:100%" onclick="currentSlide(7)" alt="Ponyo">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/shikamaru.jpeg" style="width:100%" onclick="currentSlide(8)"
+                        alt="Shikamaru">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/Stitch.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Stitch">
+                </div>
+            </div>
+        </div>
+                <!--Footer-->
+                <footer>
+                    <p>
+                        Feito com 🤍 por <a href="https://github.com/Dan-Source" style="text-decoration: none; color: white">
+                            Daniel Luis <i class="fab fa-github-alt"></i>
+                            </a>
+                    </p>
+                </footer>
+        </main>
+        
+
+        <script src="https://kit.fontawesome.com/c2a3297ec9.js" crossorigin="anonymous"></script>        
+        <script src="js/slideshow.js"></script>
+
+    </body>
+</html>
